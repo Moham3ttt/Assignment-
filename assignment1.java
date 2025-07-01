@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class assignment1 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("password so geli ");
-        String password = in.nextLine();
+        String password = input.nextLine();
 
         boolean length = false;
         boolean waweyn = false;
@@ -36,7 +36,5 @@ public class assignment1 {
         } else {
             System.out.println("Weak");
         }
-
-        in.close();
     }
 }
