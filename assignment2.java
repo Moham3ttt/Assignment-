@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class assignment2 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("xaraf so geli ");
-        String text = in.nextLine();
+        String text = input.nextLine();
 
         int waweyn = 0;
         int yatyar = 0;
@@ -29,8 +29,6 @@ public class assignment2 {
         System.out.println("xarfo wayn:  " + waweyn);
         System.out.println("xarfo yar:  " + yatyar);
         System.out.println("number: " + number);
-        System.out.println("calaamdo: " + calamdo);
-
-        in.close();
-    }
+        System.out.println("calaamdo: " + calamdo)
+   }
 }
