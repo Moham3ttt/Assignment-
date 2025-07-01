@@ -46,6 +46,5 @@ public class assignment3 {
         }
 
         System.out.println("Nabad gelyo...");
-        input.close();
     }
 }
